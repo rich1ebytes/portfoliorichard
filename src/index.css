@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+
+body{
+     margin:0;
+     padding: 0;
+     overscroll-behavior: none;
+     font-family: "Poppins", sans-serif;
+     background-color: black;
+}
+
+
+.skill-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skill-label {
+  opacity: 0;
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.skill-wrapper:hover .skill-label {
+  opacity: 1;
+}
