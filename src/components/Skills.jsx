@@ -1,3 +1,12 @@
+import javascript from "../assets/JavaScript.svg";
+import postgres from "../assets/Postgres.svg";
+import react from "../assets/React.svg";
+import vite from "../assets/Vite.svg";
+import nodeIcon from "../assets/Nodde.svg";
+import express from "../assets/icons8-express-js.svg";
+import mongo from "../assets/MongoDB.svg";
+import python from "../assets/Python.svg"; 
+
 function Skills() {
   return (
     <div className="w-full bg-black-950 py-10 text-white px-4 sm:px-10">
@@ -40,3 +49,6 @@ function Skills() {
     </div>
   );
 }
+
+
+export default Skills

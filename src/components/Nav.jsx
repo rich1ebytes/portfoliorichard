@@ -33,7 +33,7 @@ function Nav() {
           href="https://www.linkedin.com/in/richard-gomes"
           target="_blank"
           rel="noreferrer"
-          className="bg-white text-black-950 px-3 py-1 rounded hover:bg-black-100 text-sm font-medium"
+          className="bg-white text-black px-3 py-1 rounded hover:bg-black-100 text-sm font-medium"
         >
           LinkedIn
         </a>
@@ -41,7 +41,7 @@ function Nav() {
           href="https://www.instagram.com/richxiee/"
           target="_blank"
           rel="noreferrer"
-          className="bg-white te-black px-3 py-1 rounded hover:bg-black-100 text-sm font-medium"
+          className="bg-white text-black px-3 py-1 rounded hover:bg-black-100 text-sm font-medium"
         >
           Instagram
         </a>
